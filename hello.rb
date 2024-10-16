@@ -1,23 +1,8 @@
-pp "howdy, world!"
-
-#kendime not, bu string turuncu idi profesorun sayfasinda. bende nasil olur? require'in da mavi olmasi lazim
-
-# require "./bye.rb"
-
 require "active_support/all"
-#bu calismadi o yuzden terminale gem install activesupport yazdik. her seferinde bunu run etmek lazimmmis ama bir cozumu var gosterecegim dedi
 
+pp "Hi! What's your name?"
 
-x = rand(30)
+name = gets
+#bu user type aciyor
 
-#ct / to make comment
-
-# if x ==
-#   x.to_s + "st"
-# elsif x ==
-#   x.to_s + "nd"
-# elsif x ==
-#   x.to_s + "rd"
-# else
-#   x.to_s + "th"
-# end
+pp "Good morning, " + name + "!"
