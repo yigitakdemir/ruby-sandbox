@@ -1,0 +1,13 @@
+=begin
+
+
+# Print the body of the response
+puts x.body
+
+burada x.body.class mi dedik?
+
+JSON'a browserda bakiyoruz, hash'e benziyor
+browser yerine envoyda bak, daha temiz
+
+
+=end
